@@ -1,0 +1,3 @@
+add_compile_options(-ftest-coverage -fprofile-arcs)
+
+add_link_options(-fprofile-arcs)

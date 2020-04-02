@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/teodoradan/CLionProjects/Shapes/Drawing.cpp
+Drawing.h
+/Users/teodoradan/CLionProjects/Shapes/Drawing.h
+iostream
+-
+
+/Users/teodoradan/CLionProjects/Shapes/Drawing.h
+Shape.h
+/Users/teodoradan/CLionProjects/Shapes/Shape.h
+vector
+-
+
+/Users/teodoradan/CLionProjects/Shapes/Shape.cpp
+Shape.h
+/Users/teodoradan/CLionProjects/Shapes/Shape.h
+iostream
+-
+
+/Users/teodoradan/CLionProjects/Shapes/Shape.h
+string
+-
+
+/Users/teodoradan/CLionProjects/Shapes/main.cpp
+Shape.h
+/Users/teodoradan/CLionProjects/Shapes/Shape.h
+Drawing.h
+/Users/teodoradan/CLionProjects/Shapes/Drawing.h
+

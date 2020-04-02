@@ -1,0 +1,4 @@
+find_package(Qt5Widgets REQUIRED)
+find_package(Qt5Sql REQUIRED)
+
+target_link_libraries(Lab8_9 Qt5::Widgets Qt5::Sql)

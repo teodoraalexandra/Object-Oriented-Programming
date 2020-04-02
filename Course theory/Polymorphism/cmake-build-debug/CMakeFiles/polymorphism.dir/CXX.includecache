@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/teodoradan/CLionProjects/polymorphism/Animal.h
+Mammal.h
+/Users/teodoradan/CLionProjects/polymorphism/Mammal.h
+vector
+-
+
+/Users/teodoradan/CLionProjects/polymorphism/Mammal.h
+string
+-
+
+/Users/teodoradan/CLionProjects/polymorphism/main.cpp
+iostream
+-
+Mammal.h
+/Users/teodoradan/CLionProjects/polymorphism/Mammal.h
+Animal.h
+/Users/teodoradan/CLionProjects/polymorphism/Animal.h
+fstream
+-
+string
+-
+fstream
+-
+sstream
+-
+vector
+-
+

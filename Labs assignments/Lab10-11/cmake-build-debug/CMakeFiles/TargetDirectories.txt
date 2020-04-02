@@ -1,0 +1,3 @@
+/Users/teodoradan/CLionProjects/Lab10-11/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/teodoradan/CLionProjects/Lab10-11/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/teodoradan/CLionProjects/Lab10-11/cmake-build-debug/CMakeFiles/Lab10_11.dir

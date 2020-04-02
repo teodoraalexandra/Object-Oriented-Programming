@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/teodoradan/CLionProjects/AbstractClasses/Animal.h
+string
+-
+
+/Users/teodoradan/CLionProjects/AbstractClasses/Dog.h
+Animal.h
+/Users/teodoradan/CLionProjects/AbstractClasses/Animal.h
+
+/Users/teodoradan/CLionProjects/AbstractClasses/Filter.h
+Animal.h
+/Users/teodoradan/CLionProjects/AbstractClasses/Animal.h
+string
+-
+
+/Users/teodoradan/CLionProjects/AbstractClasses/Penguin.h
+Animal.h
+/Users/teodoradan/CLionProjects/AbstractClasses/Animal.h
+
+/Users/teodoradan/CLionProjects/AbstractClasses/Zoo.h
+vector
+-
+Filter.h
+/Users/teodoradan/CLionProjects/AbstractClasses/Filter.h
+
+/Users/teodoradan/CLionProjects/AbstractClasses/main.cpp
+Penguin.h
+/Users/teodoradan/CLionProjects/AbstractClasses/Penguin.h
+Dog.h
+/Users/teodoradan/CLionProjects/AbstractClasses/Dog.h
+iostream
+-
+vector
+-
+Zoo.h
+/Users/teodoradan/CLionProjects/AbstractClasses/Zoo.h
+

@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/teodoradan/CLionProjects/test/BMI.h
+iostream
+-
+MedicalAnalysis.h
+/Users/teodoradan/CLionProjects/test/MedicalAnalysis.h
+
+/Users/teodoradan/CLionProjects/test/BP.h
+iostream
+-
+MedicalAnalysis.h
+/Users/teodoradan/CLionProjects/test/MedicalAnalysis.h
+
+/Users/teodoradan/CLionProjects/test/MedicalAnalysis.h
+iostream
+-
+
+/Users/teodoradan/CLionProjects/test/Person.h
+iostream
+-
+MedicalAnalysis.h
+/Users/teodoradan/CLionProjects/test/MedicalAnalysis.h
+vector
+-
+
+/Users/teodoradan/CLionProjects/test/main.cpp
+iostream
+-
+Person.h
+/Users/teodoradan/CLionProjects/test/Person.h
+MedicalAnalysis.h
+/Users/teodoradan/CLionProjects/test/MedicalAnalysis.h
+BMI.h
+/Users/teodoradan/CLionProjects/test/BMI.h
+BP.h
+/Users/teodoradan/CLionProjects/test/BP.h
+

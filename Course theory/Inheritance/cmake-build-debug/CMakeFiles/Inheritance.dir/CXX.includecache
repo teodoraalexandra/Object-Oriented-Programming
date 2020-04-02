@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/teodoradan/CLionProjects/Inheritance/Animal.h
+string
+-
+string
+-
+
+/Users/teodoradan/CLionProjects/Inheritance/Dog.h
+Animal.h
+/Users/teodoradan/CLionProjects/Inheritance/Animal.h
+Animal.h
+/Users/teodoradan/CLionProjects/Inheritance/Animal.h
+
+/Users/teodoradan/CLionProjects/Inheritance/Penguin.h
+Animal.h
+/Users/teodoradan/CLionProjects/Inheritance/Animal.h
+
+/Users/teodoradan/CLionProjects/Inheritance/main.cpp
+Penguin.h
+/Users/teodoradan/CLionProjects/Inheritance/Penguin.h
+Dog.h
+/Users/teodoradan/CLionProjects/Inheritance/Dog.h
+iostream
+-
+

@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/teodoradan/CLionProjects/testOOP1/Controller.h
+Repository.h
+/Users/teodoradan/CLionProjects/testOOP1/Repository.h
+
+/Users/teodoradan/CLionProjects/testOOP1/DynamicVector.h
+Player.h
+/Users/teodoradan/CLionProjects/testOOP1/Player.h
+
+/Users/teodoradan/CLionProjects/testOOP1/Player.h
+string.h
+-
+iostream
+-
+
+/Users/teodoradan/CLionProjects/testOOP1/Repository.h
+DynamicVector.h
+/Users/teodoradan/CLionProjects/testOOP1/DynamicVector.h
+
+/Users/teodoradan/CLionProjects/testOOP1/main.cpp
+iostream
+-
+cstring
+-
+cstdlib
+-
+Player.h
+/Users/teodoradan/CLionProjects/testOOP1/Player.h
+DynamicVector.h
+/Users/teodoradan/CLionProjects/testOOP1/DynamicVector.h
+Controller.h
+/Users/teodoradan/CLionProjects/testOOP1/Controller.h
+

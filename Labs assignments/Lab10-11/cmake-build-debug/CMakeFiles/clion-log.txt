@@ -1,0 +1,4 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_PREFIX_PATH=/Users/teodoradan/Qt/5.12.3/clang_64/lib/cmake -G "CodeBlocks - Unix Makefiles" /Users/teodoradan/CLionProjects/Lab10-11
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/teodoradan/CLionProjects/Lab10-11/cmake-build-debug
